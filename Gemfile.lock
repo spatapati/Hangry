@@ -18,10 +18,13 @@ GEM
     bond (0.5.1)
     builder (3.2.2)
     coderay (1.1.0)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
     i18n (0.7.0)
     json (1.8.2)
     method_source (0.8.2)
     minitest (5.5.1)
+    multipart-post (2.0.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -60,6 +63,10 @@ GEM
       sinatra (>= 1.2.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    yummly (0.0.13)
+      faraday (>= 0.8.7)
+      json (~> 1.8.0)
+      rack (>= 1.4.5)
 
 PLATFORMS
   ruby
@@ -73,3 +80,4 @@ DEPENDENCIES
   sinatra-activerecord
   sqlite3
   tux
+  yummly
