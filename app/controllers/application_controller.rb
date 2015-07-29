@@ -1,5 +1,7 @@
 require_relative "../../config/environment"
 require_relative "../models/model.rb"
+require_relative "../models/recipe.rb"
+
 
 
 class ApplicationController < Sinatra::Base
